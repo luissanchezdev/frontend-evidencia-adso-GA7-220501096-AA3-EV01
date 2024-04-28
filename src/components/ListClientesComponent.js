@@ -49,7 +49,7 @@ export const ListClientesComponent = () => {
         &nbsp;&nbsp;
         <h2 className='text-center'>Lista de clientes</h2>
         &nbsp;&nbsp;&nbsp;
-        <input value = {search} onChange = {searcher} type='text' placeholder='Search' className='form-control'></input>
+        <input value = {search} onChange = {searcher} type='text' placeholder='Buscar' className='form-control'></input>
         &nbsp;
         <table class="table">
             <thead class="thead-light">
